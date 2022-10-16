@@ -2,10 +2,7 @@ import React from "react";
 import "./App.css";
 import Weather from "./Weather";
 
-
 function App() {
-  let city = "Lisbon";
-
   return (
     <div className="App">
       <header className="App-header">
