@@ -36,3 +36,134 @@
     transform: rotate(360deg);
   }
 }
+#weather-app-container {
+  max-width: 750px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 15px;
+  color: rgb(72, 72, 74, 0.85);
+  background: linear-gradient(
+    180deg,
+    rgb(133, 88, 255, 0.6) 6%,
+    rgb(236, 110, 76, 0.8) 100%
+  );
+  border-radius: 8px;
+  box-shadow: 3px 3px rgb(72, 72, 74, 0.05);
+}
+div.card-body {
+  padding: 16px 8px 6px 8px;
+}
+div.container.text-center {
+  padding: 0;
+}
+
+.card-body {
+  font-family: "Poppins", sans-serif;
+}
+#app-name {
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  text-align: left;
+  color: rgba(63, 21, 188, 0.6);
+}
+#search-bar-details {
+  padding-left: 30px;
+}
+#search-btn-style {
+  color: white;
+  border-color: 0.5mm solid rgb(236, 110, 76, 0.85);
+  background-color: rgb(236, 110, 76, 0.8);
+}
+#search-btn-style:hover {
+  background-color: rgb(72, 72, 74, 0.7);
+}
+#bottom-container {
+  padding: 10px 10px;
+  margin: 10px;
+  text-align: left;
+}
+#city {
+  font-size: 34px;
+  font-weight: 600;
+  color: rgb(72, 72, 74);
+  text-shadow: 2px 2px rgb(72, 72, 74, 0.2);
+}
+#date-style {
+  color: rgb(72, 72, 74, 0.6);
+}
+.weather-details {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(72, 72, 74, 0.85);
+}
+.weather-details:first-letter {
+  text-transform: capitalize;
+}
+span.units {
+  padding: 10px;
+  font-size: 28px;
+}
+#icon-current-temp-c-f {
+  padding: none;
+}
+img.temp-icon {
+  width: 130px;
+}
+span#temperature {
+  font-size: 44px;
+  font-weight: 500;
+}
+#celsius-link {
+  text-decoration: none;
+}
+.units .active {
+  color: rgb(105, 105, 105);
+  cursor: default;
+}
+#fahrenheit-link {
+  text-decoration: none;
+}
+
+/* FIVE DAY FORECAST */
+div#forecast-card {
+  border: 0.5mm solid rgb(133, 88, 255, 0.15);
+  box-shadow: 2px 2px rgb(72, 72, 74, 0.03);
+}
+#forecast-card-body {
+  padding: 6px;
+  margin: 0;
+}
+#weather-forecast {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+h5.weather-forecast-date {
+  font-size: 16px;
+  padding: 4px 12px;
+  background: rgba(228, 219, 255, 0.1);
+}
+.weather-forecast-temperatures-max {
+  font-size: 15px;
+  color: rgb(72, 72, 74, 0.95);
+  font-weight: 500;
+}
+.weather-forecast-temperatures-min {
+  font-size: 15px;
+  color: rgb(72, 72, 74, 0.6);
+}
+h5.card-title {
+  font-size: 26px;
+}
+/* open source */
+#open-source {
+  padding-top: 10px;
+  color: rgb(133, 88, 255);
+  text-align: center;
+  font-size: 13px;
+}
+#github-link {
+  text-decoration: none;
+}

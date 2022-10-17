@@ -1,0 +1,14 @@
+#date-style {
+  color: rgb(72, 72, 74, 0.6);
+}
+.WeatherDetailStyle {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(74, 72, 73, 0.85);
+}
+.WeatherDetailStyle:first-letter {
+  text-transform: capitalize;
+}
+ul.weather-list {
+  list-style-type: none;
+}
